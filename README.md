@@ -8,7 +8,7 @@ SketchController gives you boilerplate UIViewController code that handles settin
 
 ## How to use it?
 1. Copy SketchController.h and SketchController.m into your xcode project.
-2. Open SketchController.m and copy the following methods to your application's root view controller: -(void)prepareForSegue:sender: and -(void)dismissModal:
+2. Open SketchController.m and copy the following methods to your application's root view controller: `-(void)prepareForSegue:sender:` and `-(void)dismissModal:`
 3. Now, you can add new UIViewControllers to your storyboard.  To quickly "Sketch" them together, simply use the Identity Inspector to change each new controller's class to SketchController. **leave the root view controller class identity unchanged.
 4. Finally, in each view you added just add a button, and connect it to the ScetchController's donePressed: IBAction. If you do this for every View Controller you add to your storyboard, all you need to do is add Segues in the normal way to wire up transitions.
 
