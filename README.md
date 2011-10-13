@@ -8,11 +8,7 @@ SketchController gives you boilerplate UIViewController code that handles settin
 
 ## How to use it?
 1. Copy SketchController.h and SketchController.m into your xcode project.
-2. Open SketchController.m and copy the following methods to your application's root view controller: 
-
-// dont' use these... copy them from SketchController.m
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-- (void)dismissModal
+2. Open SketchController.m and copy the following methods to your application's root view controller: -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender  and - (void)dismissModal:
 
 3. Now, you can add new UIViewControllers to your storyboard.  To quickly "Sketch" them together, simply use the Identity Inspector to change each new controller's class to SketchController. **leave the root view controller class identity unchanged.
 
